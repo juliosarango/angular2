@@ -4,6 +4,6 @@ import { Directive, ElementRef, Input } from '@angular/core';
 
 export class GigantDirective {
     constructor(el:ElementRef){
-        el.nativeElement.style.fontSize = '50px';
+        el.nativeElement.style.fontSize = '22px';
     }
 }
